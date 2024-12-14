@@ -97,7 +97,7 @@ def getWinner(player_choice, player_name, bot_choice):
         print(f"\n{player_name} {choices[player_choice]} beats RPS-3PO {choices[bot_choice]}.")
         return "player"
     else:
-        print(f"\nRPS-3PO {choices[bot_choice]} beats {player_name} {choices[player_choice]}.")
+        print(f"\nRPS-3PO {choices[bot_choice]} beats {player_name}'s {choices[player_choice]}.")
         return "bot"
 
 main()
